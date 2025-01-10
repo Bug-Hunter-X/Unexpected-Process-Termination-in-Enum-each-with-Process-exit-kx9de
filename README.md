@@ -1,0 +1,1 @@
+This example demonstrates a subtle issue in Elixir when using `Process.exit` within an `Enum.each` loop.  Improper handling of process termination can lead to incomplete list processing. The solution showcases a safer approach using a `try-catch` block or alternative functions like `Enum.reduce` for controlled execution.
